@@ -1,0 +1,8 @@
+{
+“name”: “Elemental Weaknesses”,
+“version”: “1.0.0”,
+“description”: “A bot that tells you what elements a pokemon is weak or strong against.”,
+“main”: “bot.js”,
+“author”: “ivey-kun#2275”,
+“dependencies”: {}
+}
