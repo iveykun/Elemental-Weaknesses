@@ -49,10 +49,10 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 						HalfTypes = [type1.HalfTypes, type2.HalfTypes]
 						DoubleTypes = [type1.DoubleTypes, type2.DoubleTypes]
 					}
-				}
+				}//inset the damned code
 				bot.sendMessage({
-                    to: channelID,
-                    message: 
+                   			to: channelID,
+                    			message: // usually 'messagecontent' but idk how to format
 					"This Pokemon is weak to: " + DoubleTypes + "!"\n
 					"This Pokemon is strong against: " + HalfTypes + "!"\n
 					"This Pokemon is immune to: " + ImmuneTypes + "!"\n
